@@ -1,0 +1,7 @@
+# Site settings
+title: Ben Cunningham
+url: benjcunningham.org
+permalink: /:title.html
+
+# Build settings
+markdown: kramdown

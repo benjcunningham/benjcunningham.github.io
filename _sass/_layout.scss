@@ -1,0 +1,49 @@
+.squeeze {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.roll {
+    padding: 0;
+}
+
+.roll-item {
+    list-style: none;
+}
+
+.roll-item .meta {
+    color: #666666;
+    display: inline-block;
+    float: right;
+    min-width: 100px;
+}
+
+.post-header {
+    background-color: #E8F2FC;
+    padding: 30px 0;
+}
+
+.post-header h1 {
+    margin-bottom: 0;
+}
+
+.post-header .time {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.post-header .tag {
+    background-color: #253951;
+    border: 1px solid #444444;
+    color: #FFFFFF;
+    border-radius: 999em;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 2;
+    padding: 0 15px;
+}
+
+.site-title {
+    border-bottom: 1px solid rgba(37,57,81,0.15);
+    padding: 15px 0;
+}
