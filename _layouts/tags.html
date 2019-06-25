@@ -31,7 +31,7 @@ layout: default
 
 {% for tag in tags %}
 <h1 id="{{ tag }}">{{ tag }}</h2>
-<ul class="roll">
+<ul class="roll tag-roll">
 {% for post in site.posts %}
     {% if post.tags contains tag %}
     <li class="roll-item">
