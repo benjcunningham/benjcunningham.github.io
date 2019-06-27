@@ -16,12 +16,6 @@ body {
     margin: 0;
 }
 
-footer {
-    background-color: #F5F5F5;
-    color: #BDBDBD;
-    padding: 30px 0;
-}
-
 header {
     background-color: #E8F2FC;
     color: #253951;
@@ -48,11 +42,15 @@ p {
 }
 
 footer {
+    background-color: #f5f5f5;
     bottom: 0;
+    color: #bdbdbd;
     left: 0;
+    padding: 30px 0;
     position: absolute;
     width: 100%;
 }
+
 
 footer hr {
     margin: 10px 0;
