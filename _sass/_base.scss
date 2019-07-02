@@ -31,6 +31,10 @@ html {
     position: relative;
 }
 
+img {
+    max-width: 100%;
+}
+
 main {
     margin: 0 auto 150px auto;
     max-width: 550px;
@@ -59,4 +63,14 @@ footer hr {
 footer p {
     margin: 0;
     font-size: 16px;
+}
+
+p code {
+    background-color: #e8f2fc;
+    border: 1px solid #84a0bc;
+    color: #253951;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 3px 6px 1px 6px;
+    vertical-align: middle;
 }
