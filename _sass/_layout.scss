@@ -56,3 +56,17 @@
 .tag-roll {
     margin-bottom: 25px;
 }
+
+.note {
+    background-color: #e8f2fc;
+    border: 1px solid #84a0bc;
+    border-radius: 3px;
+    color: #253951;
+    font-size: 15px;
+    padding: 6px 10px;
+}
+
+.note code {
+    background-color: #fff;
+    border: unset;
+}
