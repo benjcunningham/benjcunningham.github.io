@@ -10,9 +10,19 @@ title: Jekyll + R Markdown
 
 I love the idea of literate programming with R Markdown. Over the last 18 months, I've fallen away from daily R use, but I've been meaning to get back into writing with `.Rmd`. I recently scrapped my old blog and decided to start a fresh one, so thought this would be the time to get back into the habit.
 
-I'm still blogging with Jekyll and GitHub Pages, but this time around I'm aiming for a workflow that at least *feels* like it has less dependencies (maybe it won't, but I'll probably learn some things along the way to failure). Previously, I wrote all my posts in `.Rmd`, compiled them with **knitr** and **rmarkdown** via `servr::jekyll()`, and pushed to my GitHub remote from there. This time, I've moved all the compilation into a self-rolled script so everything can be built or served with a Makefile.
+I'm still blogging with Jekyll and GitHub Pages, but this time around I'm aiming for a workflow that at least *feels* like it has less dependencies (maybe it won't, but I'll probably learn some things along the way to failure). Previously, I wrote all my posts in `.Rmd`, compiled them with **knitr** and **rmarkdown** via `servr::jekyll()`, and pushed to my GitHub remote from there. ~~This time, I've moved all the compilation into a self-rolled script so everything can be built or served with a Makefile.~~
 
-If you're interested in how this is done, check out [the repo here]() (frozen to one of the most recen t commits at the time of this post) and pay special attention to `./Makefile` and `./build.R`. Instead of `jekyll serve`, you can use `make serve` to compile the `.Rmd` into `_posts/` and then automatically serve the site from there.
+~~If you're interested in how this is done, check out the repo here and pay special attention to `./Makefile` and `./build.R`. Instead of `jekyll serve`, you can use `make serve` to compile the `.Rmd` into `_posts/` and then automatically serve the site from there.~~
+
+*(Edit: July 10)* Now all of the R Markdown compilation is kicked off by a ridiculously simple Jekyll `:pre_render` hook:
+
+``` ruby
+Jekyll:Hooks.register :site, :pre_render do |doc, payload|
+    `Rscript build.R`
+end
+```
+
+I just have to run `jekyll serve` like usual. 🥳
 
 For posterity (and so I can review all the CSS), here's some placeholder text demoing what works:
 
