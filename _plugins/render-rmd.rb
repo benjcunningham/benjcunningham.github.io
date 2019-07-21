@@ -1,3 +1,3 @@
-Jekyll::Hooks.register :site, :pre_render do |doc, payload|
-    `Rscript build.R`
+Jekyll::Hooks.register :site, :pre_render do |site, payload|
+    `make all`
 end
