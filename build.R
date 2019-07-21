@@ -9,6 +9,20 @@ get_args <- function() {
 }
 
 
+output_format <- function() {
+
+    out <- rmarkdown::md_document(
+        variant = "markdown_github+yaml_metadata_block+tex_math_dollars"
+    )
+
+    out$knitr$opts_chunk$fig.path <- "../assets/"
+    out$knitr$knit_hooks$html.cap <- html.cap
+
+    out
+
+}
+
+
 html.cap <- function(before, options, envir) {
 
     if (!before) {
@@ -28,15 +42,17 @@ render_post <- function(input) {
 
     input <- file.path("..", input)
     original_wd <- setwd("_posts")
+
     rmarkdown::render(
         input,
         output_dir = ".",
-        output_format = "md_document",
+        output_format = output_format(),
         output_options = list(
             variant = "markdown_github+yaml_metadata_block+tex_math_dollars"
         ),
         env = environment()
     )
+
     setwd(original_wd)
 
 }
@@ -71,7 +87,6 @@ main <- function() {
     args <- get_args()
     inputs <- list.files(args$input_dir, pattern = "\\.Rmd", full.names = TRUE)
 
-    knitr::opts_chunk$set(fig.path = "../assets/")
     log <- purrr::map_chr(inputs, maybe_render)
 
     cat(log, sep="\n")
