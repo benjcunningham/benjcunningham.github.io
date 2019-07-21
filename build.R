@@ -9,6 +9,21 @@ get_args <- function() {
 }
 
 
+html.cap <- function(before, options, envir) {
+
+    if (!before) {
+
+        envir$html.cap.num <- (envir$html.cap.num + 1) %z% 1
+        paste0('<p class="caption"><b>Fig. ', envir$html.cap.num, ": </b>", options$html.cap,"</p>")
+
+    }
+
+}
+
+
+`%z%` <- function(x, y) if (length(x) == 0) y else x
+
+
 render_post <- function(input) {
 
     input <- file.path("..", input)
