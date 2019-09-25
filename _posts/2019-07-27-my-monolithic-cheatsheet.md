@@ -15,7 +15,7 @@ Go to beginning of line: `Ctrl + a`
 
 Go to end of line: `Ctrl + e`
 
-Move forward / back by a word: `Alt + b` `Alt + f`
+Move back / forward by a word: `Alt + b` `Alt + f`
 
 Delete to beginning of line: `Ctrl + u`
 
