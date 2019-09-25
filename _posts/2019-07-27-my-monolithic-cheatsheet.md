@@ -7,6 +7,22 @@ tags: [linux, python]
 
 This post is going to be one big cheatsheet for some of the software I use most often. I think my single guiding principle will be to list only the most useful commands that I tend to forget. I imagine that means this page will be under construction for a long time. 👷
 
+# Bash
+
+Clear screen: `Ctrl + l`
+
+Go to beginning of line: `Ctrl + a`
+
+Go to end of line: `Ctrl + e`
+
+Move forward / back by a word: `Alt + b` `Alt + f`
+
+Delete to beginning of line: `Ctrl + u`
+
+Delete to end of line: `Ctrl + k`
+
+Edit long command in Vim: `Ctrl + x, Ctrl + e`
+
 # Docker
 
 Install on Linux: `curl -sSL https://get.docker.com/ | sh`
