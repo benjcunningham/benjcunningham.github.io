@@ -3,18 +3,21 @@ layout: default
 ---
 
 <header>
+    <div class="site-title">
+		<div class="squeeze">
+            <h2>
+                Ben Cunningham
+            </h2>
+		</div>
+    </div>
     <div class="squeeze">
         <div class="post-header">
-            <h1>Ben Cunningham</h1>
+			{{ content }}
         </div>
     </div>
 </header>
 
 <main>
-
-    <div class="home-intro">
-        {{ content }}
-    </div>
 
     {% include blog-roll.html %}
 
