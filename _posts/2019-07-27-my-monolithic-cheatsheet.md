@@ -43,6 +43,16 @@ Load an image from an archive: `docker load < NAME.tar.gz`
 
 Save an image as an archive: `docker save NAME > NAME.tar`
 
+# Homebrew
+
+Install formula: `brew install NAME`
+
+List available versions of formula: `brew search NAME@`
+
+Install specific version: `brew install NAME@0.1`
+
+Install from specific commit: `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/<COMMIT>/Formula/<FORMULA>.rb`
+
 # Python
 
 ## conda
