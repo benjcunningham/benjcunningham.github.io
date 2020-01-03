@@ -69,6 +69,10 @@ Install package: `pip install NAME` `pip install -r requirements.txt`
 
 Uninstall package: `pip uninstall NAME`
 
+## Vim
+
+Switch encoding of file: `:set fileformat=unix`
+
 ## virtualenv / virtualenvwrapper
 
 Create a new environment: `mkvirtualenv [-r requirements.txt] NAME`
