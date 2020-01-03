@@ -94,8 +94,18 @@ List sessions: `tmux ls`
 
 Attach session `tmux attach -t NAME`
 
-Kill session: `tmux kill-session -t NAME`
-
 Make horizontal split (vertical line): `Ctrl + b, "`
 
 Make vertical split (horizontal line): `Ctrl + b, %`
+
+Kill pane: `Ctrl + x`
+
+Create window: `Ctrl + c`
+
+Rename window: `Ctrl + ,`
+
+Kill window: `Ctrl + &`
+
+Detach session: `Ctrl + k`
+
+Kill session: `tmux kill-session -t NAME`
