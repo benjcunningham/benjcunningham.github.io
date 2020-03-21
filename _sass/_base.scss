@@ -14,6 +14,18 @@ a, a:visited {
     background-position: 0 0;
     color: inherit;
     text-decoration: none;
+    transition: background-position 250ms ease-in-out;
+    word-break: break-word;
+}
+
+main a:hover {
+    background-image: linear-gradient(
+        transparent 0%,
+        transparent calc(50% - 9px),
+        rgba(145, 193, 241, 0.35) calc(50% - 9px),
+        rgba(145, 192, 241, 0.35) 100%
+    );
+    background-position: 0 100%;
 }
 
 header a {
