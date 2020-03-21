@@ -2,7 +2,7 @@
 layout: post
 title: "Leaving Your First Role"
 date: 2017-09-15
-tags: [labor]
+tags: [Labor]
 ---
 
 <p class="note">

@@ -2,7 +2,7 @@
 layout: post
 title: "Tokyo + Hiroshima + Kyoto &#127471;&#127477;"
 date: 2018-01-14
-tags: [travel]
+tags: [Travel]
 ---
 
 Shelley and I spent two weeks in Japan this winter. She had been before, I had not. Here's a list of some random things that popped into mind what I'd suggest you keep in mind if you ever visit too:

@@ -2,7 +2,7 @@
 layout: post
 title: "Copenhagen &#127465;&#127472;"
 date: 2017-07-01
-tags: [travel]
+tags: [Travel]
 ---
 
 Shelley and I decided to fly to Copenhagen during the long July 4 work holiday. I’ve had a sweet spot for Scandinavian noir for a few years, so the city has been on my list for awhile. We settled on the idea back in January and committed to flights not long after, but we really didn’t start planning until earlier this week — we’re looking forward to exploring the City of Spires from scratch.

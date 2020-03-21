@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up a Headless Raspberry Pi"
 date: 2020-03-19
-tags: [linux, raspberry pi]
+tags: [Linux, Raspberry Pi]
 ---
 
 I got a Raspberry Pi 4 in the mail today. I ordered it because... COVID-19? New model? More memory? I definitely don't have a plan for it yet, but it seemed like a fun busy box while I'm stuck inside.

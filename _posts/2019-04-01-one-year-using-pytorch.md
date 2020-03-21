@@ -2,7 +2,7 @@
 layout: post
 title: "One Year Using PyTorch"
 date: 2019-04-01
-tags: [pytorch, deep learning]
+tags: [PyTorch, Deep Learning]
 ---
 
 This is purely a brain dump, reflections on some of the things I did, learned, didn't do, and maybe didn't quite learn these past twelve months.

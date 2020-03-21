@@ -2,7 +2,7 @@
 layout: post
 title: "Using Conda on Raspbian"
 date: 2020-03-21
-tags: [linux, python, raspberry pi]
+tags: [Linux, Python, Raspberry Pi]
 ---
 
 I use Conda everywhere at work, and wondered if I could get it installed on my new Raspberry Pi. There _are_ Miniconda installers in [Continuum's archives](https://repo.continuum.io/miniconda/) for the Pi's `armv7l` architecture, but they're pretty old; by default, you'll end up with Python 3.4, and won't be able to upgrade to a version lik 3.6 without some work.

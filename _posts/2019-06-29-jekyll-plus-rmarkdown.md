@@ -3,8 +3,7 @@ date: '2019-06-29'
 latex: True
 layout: post
 tags:
-- markup
-- r
+- R
 title: Jekyll + R Markdown
 ---
 

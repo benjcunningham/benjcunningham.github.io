@@ -2,7 +2,7 @@
 layout: post
 title: "Sphinx &amp; GitHub Pages"
 date: 2019-08-21
-tags: [documentation, github, python]
+tags: [Documentation, GitHub, Python]
 ---
 
 I really like the practice of [documenting projects using Sphinx](https://pythonhosted.org/an_example_pypi_project/sphinx.html) (take a look at the [PyTorch docs](https://pytorch.org/docs/stable/index.html) specifically for a great example), but it hasn't always been clear to me how to host the resulting website. Recently, I ran across a few random projects, though, that make use of GitHub Pages for that and incidentally do it in a fairly unoffensive way.

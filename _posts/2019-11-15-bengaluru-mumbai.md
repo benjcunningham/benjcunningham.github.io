@@ -2,7 +2,7 @@
 layout: post
 title: "Bengaluru + Mumbai &#127470;&#127475;"
 date: 2019-11-15
-tags: [travel]
+tags: [Travel]
 ---
 
 I was very fortunate to be able to travel to India for work this year. I had never really thought about going there before, so it was cool to be pushed into that environment. Here's a few fun things that I learned about the country along the way:

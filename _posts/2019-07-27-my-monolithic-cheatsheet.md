@@ -2,7 +2,7 @@
 layout: post
 title: "My Monolithic Cheatsheet"
 date: 2019-07-27
-tags: [linux, python]
+tags: [Linux, Python]
 ---
 
 This post is going to be one big cheatsheet for some of the software I use most often. I think my single guiding principle will be to list only the most useful commands that I tend to forget. I imagine that means this page will be under construction for a long time. 👷

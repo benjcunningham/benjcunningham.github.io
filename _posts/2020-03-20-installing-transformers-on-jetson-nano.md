@@ -2,7 +2,7 @@
 layout: post
 title: "Installing Transformers on Jetson Nano"
 date: 2020-03-20
-tags: [linux, python, pytorch]
+tags: [Linux, Python, PyTorch]
 ---
 
 I'm finally back to playing around with my Jetson Nano. Transformers (in current and previous forms) has been my favorite library over the past 18 months or so. I decided to play around with it this evening, but found that it wasn't trivial to install on this device. Here's my guide to getting up and running:

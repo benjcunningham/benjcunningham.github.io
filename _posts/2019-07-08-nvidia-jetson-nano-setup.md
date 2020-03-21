@@ -2,7 +2,7 @@
 layout: post
 title: "NVIDIA Jetson Nano Setup"
 date: 2019-07-08
-tags: [deep learning, linux, pytorch]
+tags: [Deep Learning, Linux, PyTorch]
 ---
 
 I bought an NVIDIA Jetson Nano last week and have been busy setting it up. I'm looking forward to playing around with it, especially training some models and using it for inference. Maybe I'll even come up with a fun physical project to build with it. 🤖

@@ -3,8 +3,8 @@ date: '2019-07-09'
 latex: True
 layout: post
 tags:
-- machine learning
-- math
+- Machine Learning
+- Math
 title: 'Notes on “Mathematics for Machine Learning”'
 ---
 
