@@ -27,13 +27,13 @@ _Presented in alphabetical order. Also, to increase the ridiculous-factor,
 I've decided to be very loose with the definition of "file" and what it means
 to "transfer" one. 🐒_
 
-## ~~BitTorrent~~
+## 🙁 BitTorrent
 
 I've shared some videos this way with friends, but it's a huge hassle to send
 the file, and sometimes even difficult to get the other person to figure out
 the torrent client setup they need to download the file.
 
-## [croc](https://github.com/schollz/croc)
+## 😍 [croc](https://github.com/schollz/croc)
 
 I started using croc this year as an alternative to SCP. While it does require
 an installation (compared to SCP, which tends to be pre-installed on Linux
@@ -51,28 +51,28 @@ configured correctly on two different machines to use Rsync or SCP. Even the
 commands (`croc send file.ext` and `croc short-pass-phrase` end up being
 significantly shorter to type out).
 
-## ~~[Dropbox](https://www.dropbox.com/)~~
+## 😣 [Dropbox](https://www.dropbox.com/)
 
 I almost never use it. Actually, I think I might have even deleted my account
 a few years back. I really don't see the benefit of it over uploading a file to
 Google Drive and sharing a link (and it's been my experience that Google Drive
 is more ubiquitous anyway).
 
-## Email
+## 😂 Email
 
 Sometimes you just have to give in to the beast.
 
-## External storage
+## 🙁 External storage
 
 The obvious downside is that it's slow, but working in a corporate environment,
 plugging an arbitrary USB stick or hard drive into a laptop isn't always
 a fool-proof solution (because of security restrictions).
 
-## ~~[Facebook Messenger](https://www.messenger.com/)~~
+## 😩 [Facebook Messenger](https://www.messenger.com/)
 
 I cannot think of a time where I would ever prefer to use this.
 
-## ~~FTP~~
+## 🙁 FTP
 
 It's still pretty common, to the point that lots of clients still request to
 share their data via FTP, but I consider it bad because:
@@ -87,7 +87,7 @@ _asynchronously_ share files (i.e., send now, and then let receiver access at
 a later time) without needing to use some commercial, intermediate service like
 Google Drive.
 
-## GitHub (and other Git remotes)
+## 😄 GitHub (and other Git remotes)
 
 Clearly the best way to share code (except _maybe_ tiny snippets, since
 I haven't really found people using Gists in the workplace); pretty much
@@ -95,7 +95,7 @@ a standard for that use case. You can get by sharing some small(ish) datasets
 as Git repositories as well, but non-code, non-documentation is usually best
 shared by other means.
 
-## Google Drive
+## 🙂 Google Drive
 
 There are four good things about Google Drive:
 
@@ -111,7 +111,7 @@ For these reasons I use it a lot, but the lack of organization structure is
 annoying, and I would generally prefer to not use an intermediate, commercial
 service where possible.
 
-## Microsoft Teams
+## 😣 Microsoft Teams
 
 Convenient enough for sharing screenshots, but that's about it. Sometimes
 teammates will send me tailed logs using Teams and it's an awful experience;
@@ -122,7 +122,7 @@ okay for sending _tiny_ (mind this emphasis!) code snippets too. It's not
 a good way to share files, but can work if you're on a team that is already
 using it.
 
-## Rsync
+## 😄 Rsync
 
 Before croc, this was my preferred way to share _very large_ files (i.e., for
 transfer times that would make me scream if the connection was to go down
@@ -130,7 +130,7 @@ mid-transfer). It's not always installed on servers by default, but easy enough
 to get. I like how it's easy to use SSH, but that means it comes with all of
 the baggage of keys as well.
 
-## SCP
+## 😄 SCP
 
 Before croc, SCP was my preferred way to move data around in these cases:
 
@@ -141,7 +141,7 @@ The biggest hassle, though, is that it requires you to have SSH configured
 correctly on both machines, which isn't always the case, and is much harder to
 achieve safely when you're working with another developer.
 
-## [Slack]()
+## 😣 Slack
 
 Same limited use case as Microsoft Teams. It's not a good way to share files,
 but can work if you're on a team that is already using it.
