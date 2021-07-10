@@ -93,6 +93,13 @@ main <- function() {
 
 }
 
+default_repo <- "http://cran.us.r-project.org"
+
+if (!require(argparse)) { install.packages("argparse", repos = default_repo) }
+if (!require(crayon)) { install.packages("crayon", repos = default_repo) }
+if (!require(purrr)) { install.packages("purrr", repos = default_repo) }
+if (!require(reticulate)) { install.packages("reticulate", repos = default_repo) }
+if (!require(rmarkdown)) { install.packages("rmarkdown", repos = default_repo) }
 
 if (!interactive()) {
     main()
