@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Ben Cunningham"
+title: "Home"
 summary: "The personal blog of Ben Cunningham."
 ---
 
