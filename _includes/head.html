@@ -3,7 +3,12 @@
     <title>{{ page.title | site.name }}</title>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    {% if page.summary %}
+    <meta name="description" content="{{ page.summary | escape }}">
+    {% endif %}
+    {%if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+    {%endif %}
     {% if page.latex %}
         <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
