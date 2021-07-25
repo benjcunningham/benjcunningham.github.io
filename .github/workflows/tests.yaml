@@ -1,0 +1,19 @@
+name: tests
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+jobs:
+  quality:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: |
+        brew install markdownlint-cli
+    - name: Verify Markdown quality
+      run: |
+        markdownlint -c .ci/.markdownlint.yaml _posts
