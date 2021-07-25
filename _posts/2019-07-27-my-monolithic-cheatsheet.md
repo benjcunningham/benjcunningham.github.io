@@ -85,7 +85,6 @@ Install package: `pip install NAME` `pip install -r requirements.txt`
 
 Uninstall package: `pip uninstall NAME`
 
-
 ### virtualenv / virtualenvwrapper
 
 Create a new environment: `mkvirtualenv [-r requirements.txt] NAME`
