@@ -5,7 +5,10 @@ date: 2019-07-27
 tags: [Linux, Python]
 ---
 
-This post is going to be one big cheatsheet for some of the software I use most often. I think my single guiding principle will be to list only the most useful commands that I tend to forget. I imagine that means this page will be under construction for a long time. 👷
+This post is going to be one big cheatsheet for some of the software I use most
+often. I think my single guiding principle will be to list only the most useful
+commands that I tend to forget. I imagine that means this page will be under
+construction for a long time. 👷
 
 # Bash
 
@@ -51,13 +54,16 @@ List available versions of formula: `brew search NAME@`
 
 Install specific version: `brew install NAME@0.1`
 
-Install from specific commit: `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/<COMMIT>/Formula/<FORMULA>.rb`
+Install from specific commit: `brew install
+https://raw.githubusercontent.com/Homebrew/homebrew-core/<COMMIT>/Formula/<FORMULA>.rb`
 
 # Python
 
 ## conda
 
-Install Miniconda: Download installer [here](https://docs.conda.io/en/latest/miniconda.html), then `bash Miniconda3-latest-Linux-x86_64.sh`
+Install Miniconda: Download installer
+[here](https://docs.conda.io/en/latest/miniconda.html), then `bash
+Miniconda3-latest-Linux-x86_64.sh`
 
 Update conda: `conda update conda`
 
