@@ -2,6 +2,12 @@
 💬 benjcunningham.org
 </h1>
 
+<p align="center">
+  <a href="https://github.com/benjcunningham/benjcunningham.github.io/actions/workflows/tests.yaml">
+    <img alt="tests" src="https://github.com/benjcunningham/benjcunningham.github.io/actions/workflows/tests.yaml/badge.svg">
+  </a>
+</p>
+
 This repository is the source of my personal blog, live at
 [benjcunningham.org](https://benjcunningham.org/).
 
