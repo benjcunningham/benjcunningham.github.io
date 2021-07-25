@@ -10,8 +10,8 @@ squares. Here's to doing more personal projects next year. 😂
 
 <h3 style="text-align: center;">Enterprise</h3>
 
-![](https://i.imgur.com/HDYdOCf.png)
+![Enterprise GitHub Contributions](https://i.imgur.com/HDYdOCf.png)
 
 <h3 style="text-align: center;">Personal</h3>
 
-![](https://i.imgur.com/L1fZMYE.png)
+![Personal GitHub Contributions](https://i.imgur.com/L1fZMYE.png)
