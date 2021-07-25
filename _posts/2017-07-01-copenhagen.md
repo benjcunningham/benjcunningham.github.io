@@ -12,9 +12,9 @@ committed to flights not long after, but we really didn’t start planning until
 earlier this week — we’re looking forward to exploring the City of Spires from
 scratch.
 
-# Saturday
+## Saturday
 
-## 2 P.M. The Coziest Airport
+### 2 P.M. The Coziest Airport
 
 Oddly, the first thing we found ourselves fixated with in Denmark was the
 beautiful wooden floor of Copenhagen Airport (CPH). Silently, we raced down the
@@ -22,7 +22,7 @@ dark, parquet halls (seriously, we couldn’t get enough of those floors) to
 immigration, blissfully unaware that our time in Scandinavia would move at
 a delightfully slower pace than at home in Manhattan.
 
-## 3 P.M. Settling in by the Sea
+### 3 P.M. Settling in by the Sea
 
 After a 30 minute cab ride through the mist, Shelley and I were already
 enchanted with the city. Our driver pointed out cobblestone storefronts, grassy
@@ -35,7 +35,7 @@ birthday. Exhausted from our overnight flight, Shelley and I took the next few
 hours off to nap and catch up on the best Danish-dubbed American television we
 never knew we were missing.
 
-## 8 P.M. Colorful Canals
+### 8 P.M. Colorful Canals
 
 Somewhat unaware of the time, but also just starving for a real meal, we
 ventured out into breezy Copenhagen for the first time. Not quite sure if the
@@ -52,9 +52,9 @@ Feasting (at least relative to well-mannered European portions) away on the
 boardwalk in an ocean of merry Danes, we were finally off duty from our lives
 back home.
 
-# Sunday
+## Sunday
 
-## 4 P.M. Jet Lag and Afternoon Views
+### 4 P.M. Jet Lag and Afternoon Views
 
 A night that never quite reached astronomical twilight left us snoozing through
 our morning, and then afternoon, alarm clocks. But when we finally crawled out
@@ -78,7 +78,7 @@ the focal point of the city’s skyline. Then, just a few hundred yards away, we
 lingered in the massive courtyard of Amalienborg, the four-palace home of the
 Danish royal family.
 
-## 6 P.M. Street Food Dinner
+### 6 P.M. Street Food Dinner
 
 Starving again, having missed out on nearly another full day of Danish cuisine,
 Shelley and I fervently crossed the city’s inner harbour via pedestrian bridge
@@ -88,7 +88,7 @@ wandered the bustling maze of food stalls. Smørrebrød from Handmade, barbecue
 pork sandwiches from Oink Oink, duck fat fries from Copper and Wheat, and
 a couple dark ales from Stormly kept us nibbling for 90 minutes.
 
-## 8 P.M. Royal Palaces
+### 8 P.M. Royal Palaces
 
 Stuffed from dinner, we dodged the shadows slowly creeping across the inner
 city. With the grounds deserted in the after-hours of the weekend, Shelley and
@@ -97,9 +97,9 @@ Stables (Kongelige Stalde), some of the most beautiful cityscapes we’d see on
 our trip. A few dozen Instagram ops later, we strayed back to Nyhavn and closed
 out our night with ice creams from Vaffelbageren.
 
-# Monday
+## Monday
 
-## 8 A.M. Monday Morning Commute
+### 8 A.M. Monday Morning Commute
 
 After debating whether we had the nerve to hoof it with Copenhagen’s leagues of
 bicycle commuters, Shelley and I opted to play it safe on the S-train for our
@@ -109,7 +109,7 @@ how to buy a ticket later, we were on our way to Copenhagen City Hall
 the western wall of Tivoli Gardens, spying on the commotion of the city’s
 laborers crossing a world of tourists.
 
-## 9 A.M. The Grand Tour
+### 9 A.M. The Grand Tour
 
 To better invesitage the 99.9% of Denmark that isn’t urban Copenhagen, Shelley
 and I signed up for a Hamlet Tours day trip, seeking out northern Zealand’s
@@ -125,7 +125,7 @@ and a jaw dropping waltz through the neverending halls of Frederiksborg Castle.
 Finally, live Shakespeare in Kronborg (a.k.a. Elsinore in Hamlet) and one final
 parking lot dash through a sudden downpour before heading back to the city.
 
-## 6 P.M. Dinner Downtown
+### 6 P.M. Dinner Downtown
 
 Dropped off from the tour, Shelley and I again found ourselves at Nyhavn
 looking for food. Fortunately, having done some master Yelping the night
@@ -138,16 +138,16 @@ satisfied than any meal thus far. Already happy with our choice, we were even
 more pleased to see our decision further validated as night fell and the snug
 room filled to capacity with more reservations.
 
-# Tuesday
+## Tuesday
 
-## 1 P.M. The National Museum
+### 1 P.M. The National Museum
 
 No trip abroad would be complete without at least one formal museum visit.
 Since we had no intention of leaving stones unturned in Denmark, Shelley and
 I made sure to stop by the National Museum of Denmark (Nationalmuseet) for
 a few hours on Tuesday afternoon.
 
-## 4 P.M. More Street Food
+### 4 P.M. More Street Food
 
 Still not sick of castles, we next took off for the seemingly out of place
 Rundetårn in inner city Copenhagen. The 17th-century astronomical observatory,
@@ -160,7 +160,7 @@ front of the original Joe & the Juice (we weren’t), we headed to Torvehallerne
 another mostly-open-air market in central Copenhagen, to grab pastries from
 Brioche Dorée.
 
-## 5 P.M. Strolling Through the Park
+### 5 P.M. Strolling Through the Park
 
 Finally, Shelley and I closed out our time in Denmark by strolling north
 through Østre Anlæg, a public park, and the University of Copenhagen Botanical

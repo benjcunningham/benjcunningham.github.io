@@ -10,7 +10,7 @@ often. I think my single guiding principle will be to list only the most useful
 commands that I tend to forget. I imagine that means this page will be under
 construction for a long time. 👷
 
-# Bash
+## Bash
 
 Clear screen: `Ctrl + l`
 
@@ -26,7 +26,7 @@ Delete to end of line: `Ctrl + k`
 
 Edit long command in Vim: `Ctrl + x, Ctrl + e`
 
-# Docker
+## Docker
 
 Install on Linux: `curl -sSL https://get.docker.com/ | sh`
 
@@ -46,7 +46,7 @@ Load an image from an archive: `docker load < NAME.tar.gz`
 
 Save an image as an archive: `docker save NAME > NAME.tar`
 
-# Homebrew
+## Homebrew
 
 Install formula: `brew install NAME`
 
@@ -57,9 +57,9 @@ Install specific version: `brew install NAME@0.1`
 Install from specific commit: `brew install
 https://raw.githubusercontent.com/Homebrew/homebrew-core/<COMMIT>/Formula/<FORMULA>.rb`
 
-# Python
+## Python
 
-## conda
+### conda
 
 Install Miniconda: Download installer
 [here](https://docs.conda.io/en/latest/miniconda.html), then `bash
@@ -77,7 +77,7 @@ Install package with pip: `pip install NAME`
 
 Install package with conda: `conda install NAME`
 
-## pip
+### pip
 
 List packages: `pip list`
 
@@ -86,7 +86,7 @@ Install package: `pip install NAME` `pip install -r requirements.txt`
 Uninstall package: `pip uninstall NAME`
 
 
-## virtualenv / virtualenvwrapper
+### virtualenv / virtualenvwrapper
 
 Create a new environment: `mkvirtualenv [-r requirements.txt] NAME`
 
@@ -98,11 +98,11 @@ Stop using an environment: `deactivate`
 
 Remove an environment: `rmvirtualenv NAME`
 
-# Vim
+## Vim
 
 Switch encoding of file: `:set fileformat=unix`
 
-# tmux
+## tmux
 
 Start new session: `tmux` `tmux new -s NAME`
 

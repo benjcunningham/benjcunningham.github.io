@@ -16,7 +16,7 @@ experience here. I ran across a some useful posts elsewhere, but ultimately had
 to find and piece together a few sources. Hopefully this compilation will be
 useful.
 
-# Hardware
+## Hardware
 
 You can by the Jetson Nano Developer Kit from a few online retailers for about
 $99. Unlike some other hobby kits, though, about the only thing that comes in
@@ -59,7 +59,7 @@ your desk. If I recall correctly, you can setup Raspbian out of the box via SSH
 if you set a bit on the SD card, but I don't know if this is possible with
 NVIDIA's image of Ubuntu 18.04 on the Jetson Nano.
 
-# OS + Other Software
+## OS + Other Software
 
 Once you have all your hardware ready to go, checkout the official [getting
 started
@@ -77,7 +77,7 @@ Once you're logged in and your Internet is up, it's probably a good idea to run
 a few months back and some packages are out of date. You may also want to
 install some ubiquitous software like `git` while you're at it.
 
-# Installing PyTorch
+## Installing PyTorch
 
 Installing your favorite deep learning framework is going to be a bit different
 on a Jetson. It's an ARM architecture, so doing a regular pip install from PyPI

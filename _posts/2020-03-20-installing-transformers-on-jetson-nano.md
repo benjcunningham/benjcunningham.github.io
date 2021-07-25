@@ -11,7 +11,7 @@ months or so. I decided to play around with it this evening, but found that it
 wasn't trivial to install on this device. Here's my guide to getting up and
 running:
 
-# Create Virtual Environment
+## Create Virtual Environment
 
 ```bash
 pip install virtualenvwrapper
@@ -20,7 +20,7 @@ deactivate
 workon transformers
 ```
 
-# Install PyTorch
+## Install PyTorch
 
 A common theme in Jetson guides is that many libraries don't have Python wheels
 for Jetson Nanos' ARM `aarch64` architecture. Fortunately, in the case of
@@ -34,7 +34,7 @@ pip install Cython
 pip install numpy torch-1.4.0-cp36-cp36m-linux_aarch64.whl
 ```
 
-# Install SentencePiece
+## Install SentencePiece
 
 At the time of writing, if you try to `pip install transformers` at this point,
 you'll first run into issues with SentencePiece. Google doesn't have recent
@@ -49,7 +49,7 @@ cd sentencepiece/python
 python setup.py install
 ```
 
-# Install Tokenizers
+## Install Tokenizers
 
 Within the last few months, HuggingFace introduced Tokenizers, a dependency of
 and closely related sibling library to Transformers. Tokenizers accelerates
@@ -71,7 +71,7 @@ At this point, you shouldn't have any issue installing with Pip:
 pip install tokenizers
 ```
 
-# Install Transformers
+## Install Transformers
 
 At this point, you should be able to install Transformers (2.5.1, as of
 writing):

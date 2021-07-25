@@ -16,8 +16,7 @@ offered by Imperial College London, which is a tad outside of my typical
 wheelhouse of code-centric ML courses. This seemed like a good
 opportunity to try to build the habit up.
 
-Course \#1: Linear Algebra
-==========================
+## Course \#1: Linear Algebra
 
 Vectors
 -------
@@ -93,8 +92,6 @@ $$
 \mathbf{v}' = \begin{bmatrix} \frac{2}{5} \\ \frac{11}{5} \end{bmatrix}
 $$
 
-Course \#2: Multivariate Calculus
-=================================
+## Course \#2: Multivariate Calculus
 
-Course \#3: PCA
-===============
+## Course \#3: PCA
