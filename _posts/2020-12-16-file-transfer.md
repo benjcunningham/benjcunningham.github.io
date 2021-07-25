@@ -5,16 +5,18 @@ date: 2020-12-16
 tags: [Linux, Tips]
 ---
 
-I think my favorite xkcd comic is [#949](https://imgs.xkcd.com/comics/file_transfer.png).
-Moving data around is sometimes harder than it should be! Really, I think the
-hardest part is trying to make a split-second decision about what the most
-efficient transfer method is: Do I need to walk the sender/receiver through
-a custom installation? Overcome network restrictions? Work within security some
-security parameters?
+I think my favorite xkcd comic is
+[#949](https://imgs.xkcd.com/comics/file_transfer.png).  Moving data around is
+sometimes harder than it should be! Really, I think the hardest part is trying
+to make a split-second decision about what the most efficient transfer method
+is: Do I need to walk the sender/receiver through a custom installation?
+Overcome network restrictions? Work within security some security parameters?
 
 <h3 style="text-align: center;">File Transfer (xkcd #949)</h3>
 
-![](https://imgs.xkcd.com/comics/file_transfer.png "Everytime you email a file to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee sheds a single tear.")
+![](https://imgs.xkcd.com/comics/file_transfer.png "Everytime you email a file
+to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee
+sheds a single tear.")
 
 As the calendar year comes to a close, I thought I'd start compiling a list of
 ways I share files-- some good, some bad, some ridiculous. I'm not going to
@@ -23,9 +25,9 @@ to grow over time.
 
 ---
 
-_Presented in alphabetical order. Also, to increase the ridiculous-factor,
-I've decided to be very loose with the definition of "file" and what it means
-to "transfer" one. 🐒_
+_Presented in alphabetical order. Also, to increase the ridiculous-factor, I've
+decided to be very loose with the definition of "file" and what it means to
+"transfer" one. 🐒_
 
 ## 🙁 BitTorrent
 
