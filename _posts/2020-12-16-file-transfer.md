@@ -14,9 +14,9 @@ Overcome network restrictions? Work within security some security parameters?
 
 <h3 style="text-align: center;">File Transfer (xkcd #949)</h3>
 
-![](https://imgs.xkcd.com/comics/file_transfer.png "Everytime you email a file
-to yourself so you can pull it up on your friend's laptop, Tim Berners-Lee
-sheds a single tear.")
+![xkcd: File Transfer](https://imgs.xkcd.com/comics/file_transfer.png "Everytime
+you email a file to yourself so you can pull it up on your friend's laptop, Tim
+Berners-Lee sheds a single tear.")
 
 As the calendar year comes to a close, I thought I'd start compiling a list of
 ways I share files-- some good, some bad, some ridiculous. I'm not going to
