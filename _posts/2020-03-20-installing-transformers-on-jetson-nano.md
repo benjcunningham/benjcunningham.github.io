@@ -28,7 +28,8 @@ PyTorch itself, it's easy enough to find downloadable wheels on the Nvidia
 forums. Install PyTorch 1.4.0 and a few dependencies with:
 
 ```bash
-wget https://nvidia.box.com/shared/static/ncgzus5o23uck9i5oth2n8n06k340l6k.whl -O torch-1.4.0-cp36-cp36m-linux_aarch64.whl
+wget https://nvidia.box.com/shared/static/ncgzus5o23uck9i5oth2n8n06k340l6k.whl \
+    -O torch-1.4.0-cp36-cp36m-linux_aarch64.whl
 sudo apt-get install libopenblas-base
 pip install Cython
 pip install numpy torch-1.4.0-cp36-cp36m-linux_aarch64.whl

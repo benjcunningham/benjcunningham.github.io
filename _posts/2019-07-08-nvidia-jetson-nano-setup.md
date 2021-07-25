@@ -36,7 +36,10 @@ workloads. This is the route I took, so I picked up [this
 one](https://www.amazon.com/SMAKN-Switching-Supply-Adapter-100-240/dp/B01N4HYWAM).
 
 <p class="note">
-<b>Warning:</b> One finer point I didn't realize at checkout about the DC barrel jack is that it is physically disabled by default. Be sure to have a jumper / shunt cap on hand to close J48 on the board so you can get powered up via the jack right away.
+  <b>Warning:</b> One finer point I didn't realize at checkout about the DC
+  barrel jack is that it is physically disabled by default. Be sure to have
+  a jumper / shunt cap on hand to close J48 on the board so you can get powered
+  up via the jack right away.
 </p>
 
 Another must have extra is a micro SD card. There's no onboard disk, so this is
@@ -86,7 +89,8 @@ can download and install. Here's the PyTorch 1.1.0 wheel to grab (they have
 a TensorFlow one too, but let's just do this one for now):
 
 ```bash
-wget https://nvidia.box.com/shared/static/veo87trfaawj5pfwuqvhl6mzc5b55fbj.whl -O torch-1.1.0a0+b457266-cp36-cp36m-linux_aarch64.whl
+wget https://nvidia.box.com/shared/static/veo87trfaawj5pfwuqvhl6mzc5b55fbj.whl \
+    -O torch-1.1.0a0+b457266-cp36-cp36m-linux_aarch64.whl
 ```
 
 Python 3.6 came installed, but pip was not. You can get it like this:
@@ -122,7 +126,15 @@ sudo python3 setup.py install; cd
 ```
 
 <p class="note">
-<b>Note:</b> Depending on whether you setup a virtual environment or not (this is out of scope in this post), you'll want to change into whatever directory has <code>/lib/python3.6/site-packages</code> for your environment before you install. You will also want to export the <code>TORCHVISION_PYTORCH_DEPENDENCY_NAME</code> variable before installation since the torchvision <code>setup.py</code> file by default tries to verify you have <code>torch >= 1.1.0</code>; the NVIDIA <code>1.1.0a0+b457266</code> wheel doesn't pass that assertion, so we will loosen the constraint to just <code>torch</code> with the variable.
+  <b>Note:</b> Depending on whether you setup a virtual environment or not
+  (this is out of scope in this post), you'll want to change into whatever
+  directory has <code>/lib/python3.6/site-packages</code> for your environment
+  before you install. You will also want to export the
+  <code>TORCHVISION_PYTORCH_DEPENDENCY_NAME</code> variable before installation
+  since the torchvision <code>setup.py</code> file by default tries to verify
+  you have <code>torch >= 1.1.0</code>; the NVIDIA <code>1.1.0a0+b457266</code>
+  wheel doesn't pass that assertion, so we will loosen the constraint to just
+  <code>torch</code> with the variable.
 </p>
 
 That's it for now. I'll come back and make updates as I work with the Jetson
