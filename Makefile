@@ -4,7 +4,6 @@ css_dirs := _sass
 md_dirs := _posts
 
 install:
-	brew install markdownlint-cli
 	npm install
 
 quality:
