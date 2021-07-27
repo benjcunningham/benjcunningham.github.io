@@ -12,7 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: make install
+      run: |
+        sudo npm install npm -g
+        make install
     - name: Verify Markdown quality
       run: npx markdownlint --config .ci/.markdownlint.yaml _posts
     - name: Verify CSS quality
