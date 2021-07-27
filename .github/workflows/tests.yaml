@@ -18,4 +18,4 @@ jobs:
     - name: Verify Markdown quality
       run: markdownlint -c .ci/.markdownlint.yaml _posts
     - name: Verify CSS quality
-      run: npx styelint css _sass --config .ci/.stylelintrc
+      run: npx stylelint css _sass --config .ci/.stylelintrc
