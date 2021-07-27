@@ -5,7 +5,7 @@ md_dirs := _posts
 
 install:
 	brew install markdownlint-cli
-	npm install stylelint stylelint-config-primer
+	npm install
 
 quality:
 	markdownlint --config .ci/.markdownlint.yaml $(md_dirs)
