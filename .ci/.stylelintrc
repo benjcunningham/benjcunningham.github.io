@@ -1,0 +1,6 @@
+{
+  "extends": "stylelint-config-primer",
+  "rules": {
+    "selector-max-type": 3
+  }
+}
