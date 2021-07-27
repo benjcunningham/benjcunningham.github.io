@@ -14,6 +14,6 @@ jobs:
     - name: Install dependencies
       run: make install
     - name: Verify Markdown quality
-      run: markdownlint --config .ci/.markdownlint.yaml _posts
+      run: npx markdownlint --config .ci/.markdownlint.yaml _posts
     - name: Verify CSS quality
       run: npx stylelint _sass --config .ci/.stylelintrc

@@ -7,9 +7,9 @@ install:
 	npm install
 
 quality:
-	markdownlint --config .ci/.markdownlint.yaml $(md_dirs)
+	npx markdownlint --config .ci/.markdownlint.yaml $(md_dirs)
 	npx stylelint $(css_dirs) --config .ci/.stylelintrc
 
 style:
-	markdownlint --config .ci/.markdownlint.yaml --fix $(md_dirs)
+	npx markdownlint --config .ci/.markdownlint.yaml --fix $(md_dirs)
 	npx stylelint $(css_dirs) --config .ci/.stylelintrc --fix
