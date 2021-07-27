@@ -8,12 +8,14 @@ on:
     - master
 jobs:
   quality:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: make install
+      run: |
+        sudo npm install npm -g
+        make install
     - name: Verify Markdown quality
-      run: markdownlint --config .ci/.markdownlint.yaml _posts
+      run: npx markdownlint --config .ci/.markdownlint.yaml _posts
     - name: Verify CSS quality
       run: npx stylelint _sass --config .ci/.stylelintrc
