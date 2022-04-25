@@ -17,7 +17,7 @@
 }
 
 .footnotes > ol > li::before {
-  content: counter(foo) ".";
+  content: counter(foo) '.';
   display: table-cell;
   padding-right: 10px;
   text-align: right;
