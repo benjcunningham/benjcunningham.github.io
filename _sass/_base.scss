@@ -26,8 +26,8 @@ a {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, 0.35) calc(50% - 9px),
-      rgba(145, 193, 241, 0.35) 100%
+      rgba(145, 193, 241, .35) calc(50% - 9px),
+      rgba(145, 193, 241, .35) 100%
     );
   background-position: 0 0;
   background-size: 100% 225%;
@@ -46,8 +46,8 @@ a:visited {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, 0.35) calc(50% - 9px),
-      rgba(145, 193, 241, 0.35) 100%
+      rgba(145, 193, 241, .35) calc(50% - 9px),
+      rgba(145, 193, 241, .35) 100%
     );
   background-position: 0 0;
   background-size: 100% 225%;
@@ -62,8 +62,8 @@ main a:hover {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, 0.35) calc(50% - 9px),
-      rgba(145, 192, 241, 0.35) 100%
+      rgba(145, 193, 241, .35) calc(50% - 9px),
+      rgba(145, 192, 241, .35) 100%
     );
   background-position: 0 100%;
 }
@@ -82,7 +82,7 @@ header {
 }
 
 hr {
-  border-bottom: 1px solid rgba(37, 57, 81, 0.15);
+  border-bottom: 1px solid rgba(37, 57, 81, .15);
   width: 100px;
 }
 
