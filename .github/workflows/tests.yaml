@@ -11,11 +11,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: |
-        sudo npm install npm -g
-        make install
-    - name: Verify Markdown quality
-      run: npx markdownlint --config .ci/.markdownlint.yaml _posts
-    - name: Verify CSS quality
-      run: npx stylelint _sass --config .ci/.stylelintrc
