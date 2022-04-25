@@ -1,26 +1,26 @@
 .footnotes {
-  border-top: 1px solid #f5f5f5;
+  border-top: 1px solid $footer-foreground-color;
   color: $footer-foreground-color;
   font-size: 14px;
   margin-top: 30px;
   padding-top: 30px;
-}
 
-.footnotes > ol {
-  counter-reset: foo;
-  display: table;
-}
+  > ol {
+    counter-reset: foo;
+    display: table;
 
-.footnotes > ol > li {
-  counter-increment: foo;
-  display: table-row;
-}
+    > li {
+      counter-increment: foo;
+      display: table-row;
 
-.footnotes > ol > li::before {
-  content: counter(foo) '.';
-  display: table-cell;
-  padding-right: 10px;
-  text-align: right;
+      &::before {
+        content: counter(foo) '.';
+        display: table-cell;
+        padding-right: 10px;
+        text-align: right;
+      }
+    }
+  }
 }
 
 .squeeze {
@@ -32,10 +32,15 @@
 .roll {
   margin: 0;
   padding: 0;
-}
 
-.post-header a {
-  text-decoration: underline;
+  a {
+    background: none;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: none;
+  }
 }
 
 .tag a {
@@ -45,39 +50,43 @@
 .roll-item {
   list-style: none;
   margin-bottom: 15px;
-}
 
-.roll-item .meta {
-  color: $font-color-light;
-  display: inline-block;
-  float: right;
-  margin-left: 15px;
-  min-width: 100px;
+  .meta {
+    color: $font-color-light;
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
+    min-width: 100px;
+  }
 }
 
 .post-header {
   background-color: $theme-background-color;
   padding: 30px 0;
-}
 
-.post-header h1 {
-  margin-bottom: 0;
-}
+  a {
+    text-decoration: underline;
+  }
 
-.post-header .time {
-  color: $font-color-light;
-  margin-bottom: 10px;
-}
+  h1 {
+    margin-bottom: 0;
+  }
 
-.post-header .tag {
-  background-color: $theme-foreground-color;
-  border: 1px solid $font-color;
-  border-radius: 999em;
-  color: #fff;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 2;
-  padding: 0 15px;
+  .tag {
+    background-color: $theme-foreground-color;
+    border: 1px solid $font-color;
+    border-radius: 999em;
+    color: $white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 2;
+    padding: 0 15px;
+  }
+
+  .time {
+    color: $font-color-light;
+    margin-bottom: 10px;
+  }
 }
 
 .site-title {
@@ -93,15 +102,6 @@
   margin-bottom: 25px;
 }
 
-.roll a {
-  background: none;
-  text-decoration: none;
-}
-
-.roll a:hover {
-  background: none;
-}
-
 .note {
   background-color: $theme-background-color;
   border: 1px solid $note-border-color;
@@ -109,11 +109,11 @@
   color: $theme-foreground-color;
   font-size: 15px;
   padding: 6px 10px;
-}
 
-.note code {
-  background-color: #fff;
-  border: unset;
+  code {
+    background-color: $white;
+    border: unset;
+  }
 }
 
 .caption {
