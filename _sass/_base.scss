@@ -26,8 +26,8 @@ a {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, .35) calc(50% - 9px),
-      rgba(145, 193, 241, .35) 100%
+      $theme-link-color calc(50% - 9px),
+      $theme-link-color 100%
     );
   background-position: 0 0;
   background-size: 100% 225%;
@@ -46,8 +46,8 @@ a:visited {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, .35) calc(50% - 9px),
-      rgba(145, 193, 241, .35) 100%
+      $theme-link-color calc(50% - 9px),
+      $theme-link-color 100%
     );
   background-position: 0 0;
   background-size: 100% 225%;
@@ -62,14 +62,14 @@ main a:hover {
     linear-gradient(
       transparent 0%,
       transparent calc(50% - 9px),
-      rgba(145, 193, 241, .35) calc(50% - 9px),
-      rgba(145, 192, 241, .35) 100%
+      $theme-link-color calc(50% - 9px),
+      $theme-link-color 100%
     );
   background-position: 0 100%;
 }
 
 body {
-  color: #444;
+  color: $font-color;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 1.6;
@@ -77,12 +77,12 @@ body {
 }
 
 header {
-  background-color: #e8f2fc;
-  color: #253951;
+  background-color: $theme-background-color;
+  color: $theme-foreground-color;
 }
 
 hr {
-  border-bottom: 1px solid rgba(37, 57, 81, .15);
+  border-bottom: 1px solid $theme-border-color;
   width: 100px;
 }
 
@@ -108,9 +108,9 @@ p {
 }
 
 footer {
-  background-color: #f5f5f5;
+  background-color: $footer-background-color;
   bottom: 0;
-  color: #6f6f6f;
+  color: $footer-foreground-color;
   left: 0;
   padding: 30px 0;
   position: absolute;
@@ -127,10 +127,10 @@ footer p {
 }
 
 code {
-  background-color: #e8f2fc;
-  border: 1px solid #84a0bc;
+  background-color: $theme-background-color;
+  border: 1px solid $note-border-color;
   border-radius: 4px;
-  color: #253951;
+  color: $theme-foreground-color;
   font-size: 12px;
   padding: 3px 6px 1px;
   vertical-align: middle;

@@ -1,6 +1,6 @@
 .footnotes {
   border-top: 1px solid #f5f5f5;
-  color: #6f6f6f;
+  color: $footer-foreground-color;
   font-size: 14px;
   margin-top: 30px;
   padding-top: 30px;
@@ -48,7 +48,7 @@
 }
 
 .roll-item .meta {
-  color: #666;
+  color: $font-color-light;
   display: inline-block;
   float: right;
   margin-left: 15px;
@@ -56,7 +56,7 @@
 }
 
 .post-header {
-  background-color: #e8f2fc;
+  background-color: $theme-background-color;
   padding: 30px 0;
 }
 
@@ -65,13 +65,13 @@
 }
 
 .post-header .time {
-  color: #666;
+  color: $font-color-light;
   margin-bottom: 10px;
 }
 
 .post-header .tag {
-  background-color: #253951;
-  border: 1px solid #444;
+  background-color: $theme-foreground-color;
+  border: 1px solid $font-color;
   border-radius: 999em;
   color: #fff;
   display: inline-block;
@@ -81,7 +81,7 @@
 }
 
 .site-title {
-  border-bottom: 1px solid rgba(37, 57, 81, .15);
+  border-bottom: 1px solid $theme-border-color;
   padding: 15px 0;
 }
 
@@ -103,10 +103,10 @@
 }
 
 .note {
-  background-color: #e8f2fc;
-  border: 1px solid #84a0bc;
+  background-color: $theme-background-color;
+  border: 1px solid $note-border-color;
   border-radius: 3px;
-  color: #253951;
+  color: $theme-foreground-color;
   font-size: 15px;
   padding: 6px 10px;
 }
@@ -117,7 +117,7 @@
 }
 
 .caption {
-  color: #bdbdbd;
+  color: $caption-color;
   font-size: 14px;
   text-align: center;
 }
