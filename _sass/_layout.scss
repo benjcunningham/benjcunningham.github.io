@@ -43,10 +43,6 @@
   }
 }
 
-.tag a {
-  text-decoration: none;
-}
-
 .roll-item {
   list-style: none;
   margin-bottom: 15px;
@@ -87,6 +83,10 @@
     color: $font-color-light;
     margin-bottom: 10px;
   }
+}
+
+.tag a {
+  text-decoration: none;
 }
 
 .site-title {
