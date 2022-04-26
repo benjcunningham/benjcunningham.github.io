@@ -3,12 +3,10 @@
     "language": "en",
     "ignorePaths": [
         "**/node_modules/**",
-        "**/vscode-extension/**",
         "**/.git/**",
-        ".vscode",
+        "assets",
         "build.R",
-        "package-lock.json",
-        "report"
+        "package-lock.json"
     ],
     "words": [
         "Amalienborg",
