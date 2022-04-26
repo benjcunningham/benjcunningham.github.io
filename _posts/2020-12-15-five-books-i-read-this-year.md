@@ -10,7 +10,7 @@ Economy'](https://www.amazon.com/gp/product/1612198554/)** _by Jenny Odell_
 
 I read this on a plane back from Seoul, right before COVID-19 lockdowns started
 in NYC. One of my biggest struggles (and, later on, successes!) this year was
-overcoming the severe work anxiety I've sufferend from since graduation.
+overcoming the severe work anxiety I've suffered from since graduation.
 Jenny's books was a gentle, but very compelling, reminder of the many
 perspectives I can take on life that don't revolve around success and failure
 at work.

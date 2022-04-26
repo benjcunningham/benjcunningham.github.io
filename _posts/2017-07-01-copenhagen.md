@@ -67,13 +67,13 @@ unloaded from mega buses on the pier. First up, Copenhagen’s most iconic
 symbol, The Little Mermaid (Den lille Havfrue).
 
 From the waterfront, we retreated back inland through Churchillparken, a quiet,
-terraformed greenspace commemorating Winston Churchill and the British-led
+terraformed green space commemorating Winston Churchill and the British-led
 liberation of Denmark during World War II, and then onto Kastellet, another
 terraformed star fortress.
 
 After circling the island citadel, Shelley and I walked south towards the heart
 of the city. On our way, we paused to gawk at Copenhagen’s other universal
-icon, Frederik’s Church (Frederiks Kirke), an emerald domed Lutheran church and
+icon, Frederik's Church (Frederiks Kirke), an emerald domed Lutheran church and
 the focal point of the city’s skyline. Then, just a few hundred yards away, we
 lingered in the massive courtyard of Amalienborg, the four-palace home of the
 Danish royal family.
@@ -111,7 +111,7 @@ laborers crossing a world of tourists.
 
 ### 9 A.M. The Grand Tour
 
-To better invesitage the 99.9% of Denmark that isn’t urban Copenhagen, Shelley
+To better investigate the 99.9% of Denmark that isn’t urban Copenhagen, Shelley
 and I signed up for a Hamlet Tours day trip, seeking out northern Zealand’s
 most famous cathedrals and castles. For six or so hours, we piled into
 a 16-person mini-bus and cruised through the island’s rural parts, cameras in
@@ -121,9 +121,10 @@ probed UNESCO World Heritage sites, local diners, and medieval mansions.
 First up, Roskilde Cathedral and its reserve of royal burial chapels. Next,
 a quick hour at the nearby Viking Ship Museum diving into the research of
 preserved warships. Not far away in Hillerød, tuna sandwiches at Cafe Valentin
-and a jaw dropping waltz through the neverending halls of Frederiksborg Castle.
-Finally, live Shakespeare in Kronborg (a.k.a. Elsinore in Hamlet) and one final
-parking lot dash through a sudden downpour before heading back to the city.
+and a jaw dropping waltz through the never-ending halls of Frederiksborg
+Castle.  Finally, live Shakespeare in Kronborg (a.k.a. Elsinore in Hamlet) and
+one final parking lot dash through a sudden downpour before heading back to the
+city.
 
 ### 6 P.M. Dinner Downtown
 

@@ -9,9 +9,9 @@ Shelley and I spent two weeks in Japan this winter. She had been before, I had
 not. Here's a list of some random things that popped into mind what I'd suggest
 you keep in mind if you ever visit too:
 
-- **Winter in Japan is cold.** Pack accordingly. We brough many layers of
+- **Winter in Japan is cold.** Pack accordingly. We brought many layers of
   clothes (of particular note, Uniqlo's Heattech innerwear), our warmest coats,
-  snowboots, and gloves. If you follow our lead on destinations, know that
+  snow boots, and gloves. If you follow our lead on destinations, know that
   there isn't much latitudinal difference between Tokyo and Hiroshima, so
   unless you're heading to Okinawa, plan on bundling up the entire trip.
 - **Translator apps are your friend.** It's a good idea to have Google
@@ -36,8 +36,8 @@ you keep in mind if you ever visit too:
   ones that came before, so you never know what you might find on the next. Don
   Quijote, a chain of famous discount stores, is maybe the most bizarre of them
   all, so much so that you just need to go on your own.
-- **And don't forget the arcades.** Children, but moreso young(-ish) adults, in
-  Japan fill these up from about dinner time on into the night. Even if you
+- **And don't forget the arcades.** Children, but more so young(-ish) adults,
+  in Japan fill these up from about dinner time on into the night. Even if you
   don't want to play games, walk through a few in hopes of catching a glimpse
   of some of the more engaged plays. It's not uncommon to find someone clearing
   out a claw machine or breaking the record on a rhythm game.
@@ -47,10 +47,10 @@ you keep in mind if you ever visit too:
   way between cities. The views of the countryside, especially in the snowy
   winter, are great.
 - **Get the JR Rail Pass.** Shinkansen tickets will cost you extra, but if you
-  plan on spending time criss-crossing a city like Tokyo for a week-plus long
+  plan on spending time crisscrossing a city like Tokyo for a week-plus long
   trip, the JR Rail Pass may be an economical decision. The pass will get you
   in and out of the major subway systems in most metros without any additional
-  cost beyond the upfront pricetag. Just flash a laminated card you receive
+  cost beyond the upfront price tag. Just flash a laminated card you receive
   upon arrival at the airport to the attendants at any subway turnstile and
   they'll kindly let you pass.
 - **There's more to Japanese cuisine than sushi.** I love food, and Shelley and
