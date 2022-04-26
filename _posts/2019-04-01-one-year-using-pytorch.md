@@ -52,7 +52,7 @@ training loops gave me much better perspective on what was just a black box
 before.
 
 Another concept PyTorch has helped me appreciate more is shaping tensors. I had
-used NumPy quite a bit before, but usually only delt with 1D and 2D arrays
+used NumPy quite a bit before, but usually only dealt with 1D and 2D arrays
 using obvious transformations. As I grew my general understanding of PyTorch
 and wanted to implement more adventurous modules, I found myself spending more
 time thinking about the shape of tensors at each stage in a computation graph.

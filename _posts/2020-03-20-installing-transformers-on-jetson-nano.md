@@ -23,7 +23,7 @@ workon transformers
 ## Install PyTorch
 
 A common theme in Jetson guides is that many libraries don't have Python wheels
-for Jetson Nanos' ARM `aarch64` architecture. Fortunately, in the case of
+for Jetson Nano's ARM `aarch64` architecture. Fortunately, in the case of
 PyTorch itself, it's easy enough to find downloadable wheels on the Nvidia
 forums. Install PyTorch 1.4.0 and a few dependencies with:
 

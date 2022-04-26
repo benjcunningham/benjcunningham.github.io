@@ -57,8 +57,8 @@ about what you can and can't eat-- they'll ask.
 I learned later that since 2006, all packaged food in India must be marked with
 a small green or red symbol indicating whether it is vegetarian or
 non-vegetarian. Just about every restaurant I visited marked food on the menu
-using the same system. Even on the domestic flight I took, they asked everytime
-I was offered food.
+using the same system. Even on the domestic flight I took, they asked every
+time I was offered food.
 
 I remember watching an episode of Parts Unknown once where Anthony Bourdain
 made a comment to the effect of, "I'm not a big fan of vegetables, but people

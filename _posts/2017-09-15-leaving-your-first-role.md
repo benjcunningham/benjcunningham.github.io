@@ -28,7 +28,7 @@ or haunt my future job search or (narcissistically) be lost without me.
 
 In reality, all of that was just in my head. The people around me were kind and
 understanding and ultimately moved on, and I'm fairly certain the people in
-your life will treat you similarly. In retospect, it makes sense: people quit
+your life will treat you similarly. In retrospect, it makes sense: people quit
 their jobs all the time. Resignations are just about one of the only things
 that happen at every company. They're common, they're planned for, and they're
 actually quite uninteresting. Yours will probably be too.
