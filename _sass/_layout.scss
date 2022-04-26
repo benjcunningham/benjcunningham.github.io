@@ -14,7 +14,7 @@
       display: table-row;
 
       &::before {
-        content: counter(foo) '.';
+        content: counter(foo) ".";
         display: table-cell;
         padding-right: 10px;
         text-align: right;
@@ -27,33 +27,6 @@
   margin: 0 auto;
   max-width: 550px;
   padding: 0 30px;
-}
-
-.roll {
-  margin: 0;
-  padding: 0;
-
-  a {
-    background: none;
-    text-decoration: none;
-  }
-
-  a:hover {
-    background: none;
-  }
-}
-
-.roll-item {
-  list-style: none;
-  margin-bottom: 15px;
-
-  .meta {
-    color: $font-color-light;
-    display: inline-block;
-    float: right;
-    margin-left: 15px;
-    min-width: 100px;
-  }
 }
 
 .post-header {
@@ -89,13 +62,40 @@
   text-decoration: none;
 }
 
+.home-intro a {
+  text-decoration: underline;
+}
+
+.roll {
+  margin: 0;
+  padding: 0;
+
+  a {
+    background: none;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: none;
+  }
+}
+
+.roll-item {
+  list-style: none;
+  margin-bottom: 15px;
+
+  .meta {
+    color: $font-color-light;
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
+    min-width: 100px;
+  }
+}
+
 .site-title {
   border-bottom: 1px solid $theme-border-color;
   padding: 15px 0;
-}
-
-.home-intro a {
-  text-decoration: underline;
 }
 
 .tag-roll {
