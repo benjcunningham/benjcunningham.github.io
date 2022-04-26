@@ -4,8 +4,10 @@
     "ignorePaths": [
         "**/node_modules/**",
         "**/.git/**",
+        "Makefile",
         "assets",
         "build.R",
+        "package.json",
         "package-lock.json"
     ],
     "words": [
