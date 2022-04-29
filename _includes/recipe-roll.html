@@ -1,0 +1,10 @@
+<ul class="roll">
+  {% for post in site.recipes %}
+  {% unless post.relative_path contains "index.md" %}
+  <li class="roll-item">
+    <span class="meta">{{ post.author }}</span>
+    <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+  </li>
+  {% endunless %}
+  {% endfor %}
+</ul>
