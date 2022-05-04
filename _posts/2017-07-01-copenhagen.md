@@ -5,6 +5,11 @@ date: 2017-07-01
 tags: [Travel]
 ---
 
+<!-- cSpell:words Dorée -->
+<!-- cSpell:words Kjøbenhavn -->
+<!-- cSpell:words Stormly -->
+<!-- cSpell:words Vaffelbageren -->
+
 Shelley and I decided to fly to Copenhagen during the long July 4 work holiday.
 I’ve had a sweet spot for Scandinavian noir for a few years, so the city has
 been on my list for awhile. We settled on the idea back in January and
