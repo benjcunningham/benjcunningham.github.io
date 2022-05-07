@@ -10,18 +10,16 @@ Grethe
 Hillerød
 Kastellet
 Kjøbenhavn
-Københavns
 Kongelige
 Kronborg
+Københavns
 Langelinie
 Nationalmuseet
 Netto
 Nyhavn
-Østerport
-Østre
-Rådhus
 Roskilde
 Rundetårn
+Rådhus
 Stalde
 Stormly
 Torvehallerne
@@ -31,3 +29,5 @@ kirke
 pølser
 rugbrød
 smørrebrød
+Østerport
+Østre
