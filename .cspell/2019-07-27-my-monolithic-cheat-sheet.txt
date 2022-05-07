@@ -1,6 +1,6 @@
+fileformat
+mkvirtualenv
+rmvirtualenv
 virtualenv
 virtualenvwrapper
-mkvirtualenv
 workon
-rmvirtualenv
-fileformat
