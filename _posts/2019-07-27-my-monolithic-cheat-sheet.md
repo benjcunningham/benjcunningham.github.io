@@ -5,6 +5,8 @@ date: 2019-07-27
 tags: [Linux, Python]
 ---
 
+<!-- cspell:dictionaries 2019-07-27-my-monolithic-cheat-sheet -->
+
 This post is going to be one big cheat sheet for some of the software I use most
 often. I think my single guiding principle will be to list only the most useful
 commands that I tend to forget. I imagine that means this page will be under

@@ -5,6 +5,8 @@ date: 2022-03-13
 tags: [Film, Music]
 ---
 
+<!-- cspell:dictionaries 2022-03-13-chinese-cinema-soundtrack -->
+
 I keep [a Spotify playlist of my favorite needle drops and OST cuts from Hong
 Kong and other Chinese
 cinema](https://open.spotify.com/playlist/0PYLm4qgl0GdWBMwCUX86p?si=359f9472489f4105).
@@ -20,8 +22,8 @@ Letterboxd too.
 ## The Private Eyes (1976)
 
 - [半斤八兩 (Half a Catty, Eight Taels)][half-a-catty-eight-taels] – Sam Hui
-    - Pinyin: _Bàn jīn bā liǎng_
     - Jyutping: _Bun3 gan1 baat3 loeng5_
+    - Pinyin: _Bàn jīn bā liǎng_
 
 ## Police Story (1985)
 
