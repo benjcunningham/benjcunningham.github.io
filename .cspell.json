@@ -7,9 +7,11 @@
     "_site",
     "_source",
     "CNAME",
+    "Makefile",
     "assets",
     "build.R",
     "package-lock.json",
+    "package.json",
     "requirements.txt"
   ],
   "dictionaries": [
