@@ -5,6 +5,8 @@ date: 2020-12-16
 tags: [Linux, Tips]
 ---
 
+<!-- cspell:words Balena Berners Kaggle xkcd -->
+
 I think my favorite xkcd comic is
 [#949](https://imgs.xkcd.com/comics/file_transfer.png).  Moving data around is
 sometimes harder than it should be! Really, I think the hardest part is trying
