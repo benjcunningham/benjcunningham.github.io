@@ -12,3 +12,4 @@ lint: clean
 	npx cspell "**"
 	npx jscpd --gitignore .
 	npx stylelint -f verbose "**/*.scss"
+	npx htmlhint "**/*.html"
