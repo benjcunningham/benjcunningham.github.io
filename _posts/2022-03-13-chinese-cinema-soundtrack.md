@@ -5,11 +5,7 @@ date: 2022-03-13
 tags: [Film, Music]
 ---
 
-<!-- cSpell:words Bengawan -->
-<!-- cSpell:words Birdy -->
-<!-- cSpell:words Dreamin' -->
-<!-- cSpell:words Perfidia -->
-<!-- cSpell:words Rohan -->
+<!-- cspell:dictionaries 2022-03-13-chinese-cinema-soundtrack -->
 
 I keep [a Spotify playlist of my favorite needle drops and OST cuts from Hong
 Kong and other Chinese

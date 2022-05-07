@@ -5,6 +5,8 @@ date: 2020-12-15
 tags: [Books]
 ---
 
+<!-- cspell:dictionaries 2020-12-15-five-books-i-read-this-year -->
+
 **['How to Do Nothing: Resisting the Attention
 Economy'](https://www.amazon.com/gp/product/1612198554/)** _by Jenny Odell_
 
