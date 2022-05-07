@@ -1,3 +1,7 @@
+.PHONY: install
+install:
+	npm install
+
 .PHONY: clean
 clean:
 	rm -rf _site
@@ -6,4 +10,5 @@ clean:
 lint: clean
 	bash scripts/lint-dictionaries.sh
 	npx cspell "**"
-	npx jscpd .
+	npx jscpd --gitignore .
+	npx stylelint -f verbose "**/*.scss"
