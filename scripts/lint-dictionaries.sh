@@ -2,7 +2,6 @@
 
 set -eo pipefail
 
-DARK="\033[1;30m"
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 NC="\033[0;0m"
@@ -17,9 +16,10 @@ for i in "${!dicts[@]}"; do
     diff_with_sorted=$(sort -u "${dict}" | diff - "${dict}" || true)
 
     if [ -z "${diff_with_sorted}" ]; then
-        echo -e "${iter} ${DARK}${dict} ${GREEN}OK${NC}"
+        echo -e "${iter} ${dict} ${GREEN}OK${NC}"
     else
-        echo -e "${iter} ${DARK}${dict} ${RED}FAIL${NC}"
+        echo -e "${iter} ${dict} ${RED}FAIL${NC}"
+        echo "${diff_with_sorted}"
         issues=$((issues + 1))
     fi
 
