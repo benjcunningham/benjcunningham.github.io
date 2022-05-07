@@ -13,7 +13,7 @@ for i in "${!dicts[@]}"; do
 
     iter="$((i + 1))/${#dicts[@]}"
     dict="${dicts[$i]}"
-    diff_with_sorted=$(sort -u "${dict}" | colordiff - "${dict}" || true)
+    diff_with_sorted=$(sort -u "${dict}" | diff -y - "${dict}" || true)
 
     if [ -z "${diff_with_sorted}" ]; then
         echo -e "${iter} ${dict} ${GREEN}OK${NC}"
