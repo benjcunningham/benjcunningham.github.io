@@ -1,5 +1,4 @@
-Beijin
-BinJian
+Binjian
 Changde
 Goubuli
 Guwenhua
@@ -12,3 +11,6 @@ Wudadao
 Yongle
 baozi
 goubuli
+jianbing
+mahua
+malatang
