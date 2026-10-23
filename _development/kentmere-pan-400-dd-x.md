@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: film-bw
 title: "Kentmere Pan 400 in DD-X"
 film: Kentmere Pan 400
 developer: dd-x

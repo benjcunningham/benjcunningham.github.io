@@ -1,0 +1,14 @@
+{% assign notes = include.content | strip %}
+{% if notes != "" %}
+<h1>Notes</h1>
+{{ include.content }}
+{% endif %}
+
+<h1>Sources</h1>
+
+<ul>
+  <li><a href="{{ include.developer.source }}">{{ include.developer.source_name }}</a></li>
+  {% for source in page.sources %}
+  <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+  {% endfor %}
+</ul>

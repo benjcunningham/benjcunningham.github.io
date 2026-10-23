@@ -7,8 +7,32 @@ developers:
   dd-x:
     name: Ilford Ilfotec DD-X
     short_name: DD-X
+    description: Ilford Ilfotec DD-X at 1+4, one-shot
     dilution: [1, 4]
+    source_name: Ilford Ilfotec DD-X datasheet
     source: https://www.ilfordphoto.com/wp/wp-content/uploads/2019/08/ILFOTEC-DDX-AUG19.pdf
+  cs41:
+    name: CineStill Cs41 liquid kit
+    short_name: Cs41
+    description: CineStill Cs41 liquid quart kit at 102°F, reused
+    source_name: CineStill Cs41 liquid kit instructions
+    source: https://cdn.shopify.com/s/files/1/0339/5113/files/2026_Cs41_Liquid_Instruction_V9-26_Web.pdf
+    # Each roll already through a quart of developer adds this much to the
+    # time. Blix reuse doesn't change its time.
+    reuse_percent: 2
+    best_rolls: 8
+    max_rolls: 24
+    # Mixed once per kit, in order, into a quart bottle each. Not shown on the
+    # film pages yet; kept for a mixing page.
+    mix:
+      - step: Dev
+        water: 591
+        water_temp: 120°F (49°C)
+        parts: [{ name: A, volume: 237 }, { name: B, volume: 59 }, { name: C, volume: 59 }]
+      - step: Blix
+        water: 532
+        water_temp: 125°F (52°C)
+        parts: [{ name: A, volume: 237 }, { name: B, volume: 59 }, { name: C, volume: 118 }]
 
 stop:
   name: Ilford Ilfostop
@@ -27,12 +51,15 @@ wetting:
   short_name: Ilfotol
   dilution: [1, 200]
 
-# Solution volumes for the Paterson two-reel tank. Add 120 loads here when
-# 120 times are added to the film pages.
+# Solution volumes for the Paterson two-reel tank. Pages only show the loads
+# for formats they have times for.
 loads:
   - name: 1 × 35mm
     format: 35mm
     volume: 300
   - name: 2 × 35mm
     format: 35mm
+    volume: 500
+  - name: 1 × 120
+    format: "120"
     volume: 500

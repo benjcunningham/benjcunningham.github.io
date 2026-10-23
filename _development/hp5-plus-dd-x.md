@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: film-bw
 title: "HP5 Plus in DD-X"
 film: Ilford HP5 Plus 400
 developer: dd-x

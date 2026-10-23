@@ -1,0 +1,22 @@
+<h1>Times</h1>
+
+{% for format in page.times %}
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>{{ format[0] }}</th>
+        <th>Develop</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in format[1] %}
+      <tr>
+        <td>EI {{ row.ei }} ({{ row.push }})</td>
+        <td><b>{{ row.time }}</b></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endfor %}

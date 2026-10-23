@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+{% assign data = site.data.development %}
+{% assign developer = data.developers[page.developer] %}
+
+{% include film-header.html developer=developer %}
+
+<main>
+  {% include film-times.html %}
+
+  <p>
+    Developer at 102°F (39°C) in the TCS-1000 bath. These times are for fresh
+    developer; add time as it gets reused (below).
+  </p>
+
+  <h2>Reuse</h2>
+
+  <p>
+    Add {{ developer.reuse_percent }}% for every roll already through the
+    developer. Two rolls in a tank count as two; a roll of 120 counts as one.
+    Best quality for {{ developer.best_rolls }} rolls, usable up to
+    {{ developer.max_rolls }}.
+  </p>
+
+  {% assign last = developer.max_rolls | minus: 1 %}
+  <div class="calc" data-percent="{{ developer.reuse_percent }}">
+    <button type="button" data-step="-1" aria-label="One fewer roll">−</button>
+    <input type="number" min="0" max="{{ last }}" value="0" aria-label="Rolls already developed">
+    <button type="button" data-step="1" aria-label="One more roll">+</button>
+    <span>rolls already developed</span>
+    <p class="calc-result">
+      {% for format in page.times limit: 1 %}
+      {% for row in format[1] %}
+      {% assign split = row.time | split: ":" %}
+      {% assign seconds = split[0] | times: 60 | plus: split[1] %}
+      EI {{ row.ei }}: <b data-base="{{ seconds }}">{{ row.time }}</b>{% unless forloop.last %} · {% endunless %}
+      {% endfor %}
+      {% endfor %}
+    </p>
+  </div>
+
+  <script>
+    document.querySelectorAll(".calc").forEach(function (calc) {
+      var input = calc.querySelector("input");
+      var percent = Number(calc.dataset.percent);
+
+      function update() {
+        var rolls = Math.min(Math.max(Math.round(Number(input.value) || 0), 0), Number(input.max));
+        calc.querySelectorAll("[data-base]").forEach(function (time) {
+          var seconds = Math.round(Number(time.dataset.base) * (100 + percent * rolls) / 100);
+          time.textContent = Math.floor(seconds / 60) + ":" + String(seconds % 60).padStart(2, "0");
+        });
+        return rolls;
+      }
+
+      calc.querySelectorAll("button").forEach(function (button) {
+        button.addEventListener("click", function () {
+          input.value = Number(input.value) + Number(button.dataset.step);
+          input.value = update();
+        });
+      });
+      input.addEventListener("input", update);
+      input.addEventListener("change", function () {
+        input.value = update();
+      });
+    });
+  </script>
+
+  <h1>Volumes</h1>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Load</th>
+          <th>Each step</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for load in data.loads %}
+        {% if page.times[load.format] %}
+        <tr>
+          <td>{{ load.name }}</td>
+          <td>{{ load.volume }} ml</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <h1>Process</h1>
+
+  <ol class="steps">
+    <li>
+      <b>Heat</b> the TCS-1000 bath to 102°F with the developer and blix
+      bottles in it.
+    </li>
+    <li>
+      <b>Develop</b> for the time above. Agitate continuously for the first 10
+      seconds, then 4 inversion cycles every 30 seconds. Pour back.
+    </li>
+    <li><b>Blix</b> for 8 minutes, agitating the same way. Pour back.</li>
+    <li>
+      <b>Wash</b> for 3 minutes in running water, or fill and empty the tank 7
+      times, at 75–105°F. The lid can come off from here.
+    </li>
+    <li><b>Dry</b> hanging.</li>
+  </ol>
+
+  {% include film-footer.html developer=developer content=content %}
+</main>

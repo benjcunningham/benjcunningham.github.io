@@ -148,3 +148,36 @@
 .steps {
   margin: 15px 20px;
 }
+
+.calc {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+
+  button,
+  input {
+    border: 1px solid $theme-border-color;
+    border-radius: 4px;
+    font: inherit;
+    height: 36px;
+  }
+
+  button {
+    background-color: $theme-background-color;
+    color: $theme-foreground-color;
+    cursor: pointer;
+    width: 36px;
+  }
+
+  input {
+    text-align: center;
+    width: 56px;
+  }
+}
+
+.calc-result {
+  flex-basis: 100%;
+  margin: 0;
+}

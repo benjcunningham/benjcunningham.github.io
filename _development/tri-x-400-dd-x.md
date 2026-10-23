@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: film-bw
 title: "Tri-X 400 in DD-X"
 film: Kodak Tri-X 400
 developer: dd-x
