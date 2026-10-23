@@ -1,0 +1,10 @@
+{% assign films = site.development | where_exp: "doc", "doc.film" | sort: "title" %}
+<ul class="roll">
+  {% for film in films %}
+  {% assign developer = site.data.development.developers[film.developer] %}
+  <li class="roll-item">
+    <span class="meta">{{ developer.short_name }} {{ developer.dilution | join: "+" }}</span>
+    <b><a href="{{ film.url | prepend: site.baseurl }}">{{ film.film }}</a></b>
+  </li>
+  {% endfor %}
+</ul>
