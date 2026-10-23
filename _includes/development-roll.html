@@ -1,4 +1,4 @@
-{% assign films = site.development | where_exp: "doc", "doc.film" | sort: "title" %}
+{% assign films = site.development | where_exp: "doc", "doc.film" | sort: "film" %}
 <ul class="roll">
   {% for film in films %}
   {% assign developer = site.data.development.developers[film.developer] %}
