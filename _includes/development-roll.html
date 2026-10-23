@@ -3,7 +3,7 @@
   {% for film in films %}
   {% assign developer = site.data.development.developers[film.developer] %}
   <li class="roll-item">
-    <span class="meta">{{ developer.short_name }} {{ developer.dilution | join: "+" }}</span>
+    <span class="meta">{{ developer.short_name }}{% if developer.dilution %} {{ developer.dilution | join: "+" }}{% endif %}</span>
     <b><a href="{{ film.url | prepend: site.baseurl }}">{{ film.film }}</a></b>
   </li>
   {% endfor %}
