@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+{% assign data = site.data.development %}
+{% assign developer = data.developers[page.developer] %}
+{% capture dilution %}{{ developer.dilution | join: "+" }}{% endcapture %}
+
+<header>
+  {% include site-title.html %}
+  <div class="squeeze">
+    <div class="post-header">
+      <h1>{{ page.title }}</h1>
+      <div class="time">
+        {{ developer.name }} at {{ dilution }}, one-shot
+      </div>
+      <div>
+        <p class="tag"><a href="{{ site.baseurl }}/development/">Development</a></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <h1>Times</h1>
+
+  {% for format in page.times %}
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>{{ format[0] }}</th>
+          <th>Develop</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in format[1] %}
+        <tr>
+          <td>EI {{ row.ei }} ({{ row.push }})</td>
+          <td><b>{{ row.time }}</b></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+
+  <p>All chemicals at room temperature, around 20°C (68–70°F).</p>
+
+  <h1>Mix</h1>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Step</th>
+          <th>Chemical</th>
+          {% for load in data.loads %}
+          {% if page.times[load.format] %}
+          <th>{{ load.name }} ({{ load.volume }} ml)</th>
+          {% endif %}
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% assign chemicals = "developer,stop,fixer,wetting" | split: "," %}
+        {% assign steps = "Dev,Stop,Fix,Rinse" | split: "," %}
+        {% for key in chemicals %}
+        {% if key == "developer" %}
+        {% assign chemical = developer %}
+        {% else %}
+        {% assign chemical = data[key] %}
+        {% endif %}
+        <tr>
+          <td><b>{{ steps[forloop.index0] }}</b></td>
+          <td>{{ chemical.short_name }} {{ chemical.dilution | join: "+" }}</td>
+          {% for load in data.loads %}
+          {% if page.times[load.format] %}
+          <td>{% include dev-mix.html dilution=chemical.dilution volume=load.volume %}</td>
+          {% endif %}
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <h1>Process</h1>
+
+  <ol class="steps">
+    <li>
+      <b>Develop</b> for the time above. Invert 4 times in the first 10
+      seconds of each minute, then tap. Start draining 10 seconds early. Toss
+      the developer.
+    </li>
+    <li><b>Stop</b> for {{ data.stop.time }}, agitating. Pour back.</li>
+    <li>
+      <b>Fix</b> for {{ data.fixer.time }}, agitating like the developer.
+      Pour back.
+    </li>
+    <li>
+      <b>Wash</b> in three fills of fresh water, inverting 5, 10, then 20
+      times.
+    </li>
+    <li><b>Rinse</b> in Ilfotol for a minute, no agitation.</li>
+    <li><b>Dry</b> hanging, after a wipe with a squeegee.</li>
+  </ol>
+
+  {% assign notes = content | strip %}
+  {% if notes != "" %}
+  <h1>Notes</h1>
+  {{ content }}
+  {% endif %}
+
+  <h1>Sources</h1>
+
+  <ul>
+    <li><a href="{{ developer.source }}">{{ developer.name }} datasheet</a></li>
+    {% for source in page.sources %}
+    <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+    {% endfor %}
+  </ul>
+</main>

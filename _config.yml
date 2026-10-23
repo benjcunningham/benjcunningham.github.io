@@ -5,6 +5,8 @@ permalink: /:title.html
 collections:
   recipes:
     output: true
+  development:
+    output: true
 
 # Build settings
 markdown: kramdown
