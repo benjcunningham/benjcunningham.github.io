@@ -1,0 +1,38 @@
+# Shared data for the film development pages in `_development`.
+#
+# Dilutions are stored as [concentrate, water] parts so mixing amounts can be
+# calculated for each tank load.
+
+developers:
+  dd-x:
+    name: Ilford Ilfotec DD-X
+    short_name: DD-X
+    dilution: [1, 4]
+    source: https://www.ilfordphoto.com/wp/wp-content/uploads/2019/08/ILFOTEC-DDX-AUG19.pdf
+
+stop:
+  name: Ilford Ilfostop
+  short_name: Ilfostop
+  dilution: [1, 19]
+  time: 10 seconds
+
+fixer:
+  name: Ilford Rapid Fixer
+  short_name: Rapid Fixer
+  dilution: [1, 4]
+  time: 5 minutes
+
+wetting:
+  name: Ilford Ilfotol
+  short_name: Ilfotol
+  dilution: [1, 200]
+
+# Solution volumes for the Paterson two-reel tank. Add 120 loads here when
+# 120 times are added to the film pages.
+loads:
+  - name: 1 × 35mm
+    format: 35mm
+    volume: 300
+  - name: 2 × 35mm
+    format: 35mm
+    volume: 500

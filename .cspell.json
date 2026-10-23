@@ -16,6 +16,7 @@
   ],
   "dictionaries": [
     "blog",
+    "development",
     "recipes",
     "technology"
   ],
@@ -47,6 +48,10 @@
     {
       "name": "blog",
       "path": ".cspell/blog.txt"
+    },
+    {
+      "name": "development",
+      "path": ".cspell/development.txt"
     },
     {
       "name": "recipes",

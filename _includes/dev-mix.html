@@ -1,0 +1,9 @@
+{% comment %}
+Renders the amount of concentrate and water needed to make up a volume of
+working solution. Expects `dilution` ([concentrate, water] parts) and `volume`
+(ml).
+{% endcomment %}
+{%- assign parts = include.dilution[0] | plus: include.dilution[1] -%}
+{%- assign concentrate = include.volume | times: include.dilution[0] | times: 1.0 | divided_by: parts | round: 1 -%}
+{%- assign water = include.volume | minus: concentrate | round: 1 -%}
+{{ concentrate | append: "" | remove: ".0" }} ml + {{ water | append: "" | remove: ".0" }} ml water
