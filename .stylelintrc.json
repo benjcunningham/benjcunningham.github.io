@@ -1,8 +1,10 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
-  "processors": "stylelint-processor-ignore-front-matter",
+  "customSyntax": "./scripts/stylelint-front-matter-syntax.mjs",
   "rules": {
     "alpha-value-notation": "number",
-    "color-function-notation": "legacy"
+    "color-function-alias-notation": null,
+    "color-function-notation": "legacy",
+    "import-notation": "string"
   }
 }
