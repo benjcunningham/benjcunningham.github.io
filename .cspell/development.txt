@@ -1,6 +1,8 @@
 Blix
 CineStill
 Ektapan
+Foma
+Fomapan
 Harman
 Ilford
 Ilfostop
